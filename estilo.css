@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(155, 245, 11);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:left;
+    background-image:url("source/img/ondas.jfif") ;
+    
+
+ }
+ article{
+ font-size:20px;
+ }
+
+ button{
+    background-image:linear-gradient(45deg,#339FE8,#205E33,#1B32DE 100%);
+    font-family:Arial,helvetica,sans-serif;
+    font-weight:bold;
+    color:339FE8;
+    border:20px;
+    border-radius: 50px;
+    padding: 150px 700px;
+
+ }
+
+ 
+ 
