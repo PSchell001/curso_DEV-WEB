@@ -1,0 +1,51 @@
+h1{
+ border-radius: 20px;
+ border-color: rgb(217, 250, 6);
+ border-style: groove;
+ padding: 100px;
+
+
+ border-bottom-left-radius: 300px;
+ border-bottom-right-radius: 300px;
+ border-top-left-radius:50px ;
+ border-top-right-radius: 50px;
+ color: blue;
+ border-bottom-color: rgb(29, 108, 108);
+ color
+ font-family:"roboto", sans-serif;
+ 
+ background-color:rgb(25, 65, 36);
+
+
+
+}
+article>p{
+    background-color: blueviolet;
+   
+
+
+}
+a{
+text-align: justify;
+
+
+
+
+}
+a{
+    text-decoration: none;
+}
+#identificadorarticle{
+    background-color: rgb(247, 99, 7);
+}
+.capitular_article::before{
+content:"olá,";
+
+}
+.capitular_article::first-letter{
+font-size:25px;
+
+}
+.capitular_article {
+    font-size: 65px;
+}
