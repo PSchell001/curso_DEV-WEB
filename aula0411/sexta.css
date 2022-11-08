@@ -1,22 +1,64 @@
 h1{
 margin-left: 200px;
 margin-right: 200px;
-background-image: url("../source/img/OIP\ \(1\).jfif");
 padding: 25px;
+text-align: center;
+font-size: 50px;
 
+}
+h1:hover{
+    font-size: 60px;
 }
 img{
-border-radius: 120px;
-padding: 30px;
-border-left: 100px;
-background-color: aquamarine;
+border-radius: 80px;
+padding: 10px;
+border-left: 150px;
+background-color: rgb(249, 255, 253);
 width:50vw;
-height: 500px;
+height: 300px;
 
+}
+img:hover{
+    width: 90vw;
+    height: 500px;
+}
+li{
+    color: rgb(249, 16, 16);
+}
 
+ul:hover{
+    color: crimson;
+    box-shadow: 25px;
+    
+}
+
+ 
+
+li:hover{
+    background-color: rgb(175,189 , 157);
+    font-size: 25px;
 }
 h2{
-background-color: aqua;
-
-
+color: rgb(3, 58, 106);
+cursor: pointer;
+font-size: 20px;
 }
+
+
+
+
+nav ul li:hover{
+    background-color: rgb(238, 229, 67);
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow:7px 7px 20px #ec0606;
+}
+body{
+    height: calc(100vh - 183px);
+    background-image: url('../source/img/praia.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+article ::content h2
