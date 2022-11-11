@@ -4,6 +4,7 @@ margin-right: 200px;
 padding: 25px;
 text-align: center;
 font-size: 50px;
+p.groove {border-style: groove;}
 
 }
 h1:hover{
@@ -11,40 +12,39 @@ h1:hover{
 }
 img{
 border-radius: 80px;
-padding: 10px;
-border-left: 150px;
+padding: 2px;
 background-color: rgb(249, 255, 253);
-width:50vw;
 height: 300px;
-
+opacity: 0.5;
+margin-left: 65vh;
+width: auto;
 }
 img:hover{
-    width: 90vw;
-    height: 500px;
-}
-li{
-    color: rgb(249, 16, 16);
+    width: auto;
+    height: 310px;
+    opacity: 1;
 }
 
-ul:hover{
+ul{
+    position: fixed;
+    list-style: none;
+  
+}
+   ul:hover{
     color: crimson;
     box-shadow: 25px;
-    
-}
 
- 
+}
 
 li:hover{
     background-color: rgb(175,189 , 157);
     font-size: 25px;
 }
 h2{
-color: rgb(3, 58, 106);
+color: rgb(255, 163, 163);
 cursor: pointer;
 font-size: 20px;
 }
-
-
 
 
 nav ul li:hover{
@@ -60,5 +60,27 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
-article ::content h2
+ .middle-content{
+    height: 10vh;
+ }
+ div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #363732;
+    border: 1px solid rgb(224, 10, 10);
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #f8f1f1;
+    font-style: italic;
+    font-size: 50px;
+  }

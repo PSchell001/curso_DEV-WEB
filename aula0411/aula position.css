@@ -1,0 +1,17 @@
+.pai{
+    left: 80px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(179, 28, 12);
+
+}
+.filho{
+ 
+    border: 10px   solid #77de11;
+
+}
+.neto{
+
+    height: 100px
+    
+}
