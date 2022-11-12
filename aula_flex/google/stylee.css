@@ -29,25 +29,81 @@ body {
     color: black;
     font-size: 14px;
 }
+.link:hover{
+
+}
 .btn{
     padding: 10px 16px;
     border-radius: 5px;
     margin-left: 10px;
-    background-color: cornflowerblue;
+    background-color:  #1a73e8;
+    border: 1px solid transparent;;
     color: #fff;
+    text-decoration: none !important;
+    transition: 0.25;
+}
+.btn:hover{
+    background-color: #145aca;
 }
 
 .main-content{
     background-color: rgb(247, 247, 249);
     flex-grow: 1;
 
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
 }
 
 .footer-content{
-    background-color: rgb(197, 252, 86);
+    background-color: rgb(235, 239, 227);
    height: 94px;
 
 }
+svg{
 
+    fill: #5f6368;
+    transition: 0,21;
+  padding: 8px;
+  background-color:#fff;
+border-radius: 50%;
+    
 
+}
+svg:hover{
+    fill: #082708;
+background-color: rgba(247, 246, 253,1.0);
+border-radius: 50%;
 
+}
+.text-input{
+    width: 50vw;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    margin: 15px;
+}
+.main-btn{
+    padding: 10px 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color:  #e1e1e7;
+    border: 1px solid transparent;
+    text-decoration: none !important;
+    transition: 0.25;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.main-btn:hover{
+ border-width: 2px;
+}
+
+.botoes{
+    display: flex;
+    padding: 20px;
+    
+}
